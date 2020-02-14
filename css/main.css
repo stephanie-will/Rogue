@@ -1,0 +1,175 @@
+/*****BASE STYLES*****/
+
+@@font-face {
+  font-family: 'wisdom script';
+  src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*****HEADER*****/
+
+header {
+  height: 115px;
+  border-bottom: 3px solid #77a466;
+  margin: 0 auto;
+}
+
+header  h1 {
+  color: #77a466;
+  font-size: 30px;
+  float: left;
+  margin: 0;
+  padding: 40px 0px;
+}
+header h1 span {
+  color: #000000;
+}
+
+header nav {
+  float: right;
+  padding: 70px 0 40px;
+}
+
+header nav ul  {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li  {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+
+header nav ul li a {
+  color: #77a466;
+  text-decoration: none;
+
+}
+
+/*****TOP-SECTION*****/
+
+.top-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-image {
+  height: auto;
+  float: left;
+}
+
+.main-image img {
+  border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+  height: auto;
+  float: left;
+}
+
+.main-title h3 {
+  color: #77a466;
+  font-size: 18px;
+  padding: 5px 0;
+  letter-spacing: 1px;
+}
+
+.main-title p {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 70px 30px 0;
+}
+
+
+/*****BOTTOM-SECTION*****/
+
+.bottom-section {
+  margin: 0 auto;
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+  width: 399px;
+  height: auto;
+  float: left;
+  border-top: 1px solid grey;
+}
+
+.section-one h4 {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0px;
+}
+
+.menu li {
+  font-size: 16px;
+  line-height: 40px;
+  color: #77a466;
+}
+
+.section-two {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.section-two h4,
+.section-three h4 {
+  font-size: 12px;
+  padding: 10px 30px;
+}
+
+.reviews  {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 30px;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 30px;
+}
+
+/*****FOOTER*****/
+
+footer {
+  clear: both;
+  border-top: 1px solid grey;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 16px;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'wisdom script', cursive;
+  font-size: 25px;
+  text-transform: lowercase;
+}
